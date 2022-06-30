@@ -1,21 +1,18 @@
+import { useState } from "react";
 import "./App.css";
 import ComponentGrid from "./components/ComponentGrid/ComponentGrid";
 import SizeFilter from "./components/filter/SizeFilter";
 
-// Redux
-import { Provider } from "react-redux";
-import store from "./store";
-
 function App() {
+  const [products, setProducts] = useState();
+
   return (
-    <Provider store={store}>
-      <div className="App">
-        <div className="container">
-          <SizeFilter />
-          <ComponentGrid />
-        </div>
+    <div className="App">
+      <div className="container">
+        <SizeFilter />
+        <ComponentGrid />
       </div>
-    </Provider>
+    </div>
   );
 }
 
