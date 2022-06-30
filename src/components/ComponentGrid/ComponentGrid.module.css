@@ -1,6 +1,12 @@
+.main_container {
+  height: 100%;
+  width: 80%;
+}
+
 .item_container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 20px;
   background-color: aqua;
+  
 }

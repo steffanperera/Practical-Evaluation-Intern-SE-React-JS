@@ -7,9 +7,11 @@ import Button from "./components/ui/Button";
 function App() {
   return (
     <div className="App">
-      <SizeFilter />
-      <ComponentGrid />
-      {/* <Button /> */}
+      <div className="container">
+        <SizeFilter />
+        <ComponentGrid />
+        {/* <Button /> */}
+      </div>
     </div>
   );
 }

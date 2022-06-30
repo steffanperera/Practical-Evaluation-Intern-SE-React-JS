@@ -1,0 +1,23 @@
+.topbar_container {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.dropdown {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.order_by {
+  padding-right: 20px;
+}
+
+.selecter {
+  padding: 6px;
+  width: 100px;
+}

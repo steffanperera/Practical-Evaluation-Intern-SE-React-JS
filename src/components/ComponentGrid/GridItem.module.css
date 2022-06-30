@@ -1,0 +1,8 @@
+.item {
+  display: flex;
+  flex-direction: column;
+}
+
+.div_one {
+  width: 100%;
+}
