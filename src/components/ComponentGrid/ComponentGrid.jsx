@@ -3,18 +3,14 @@ import classes from "./ComponentGrid.module.css";
 import GridItem from "./GridItem";
 import TopBar from "./TopBar";
 
-const ComponentGrid = () => {
+const ComponentGrid = ({ productItems }) => {
   return (
     <div className={classes.main_container}>
       <TopBar />
       <div className={classes.item_container}>
-        <GridItem />
-        <GridItem />
-        <GridItem />
-        <GridItem />
-        <GridItem />
-        <GridItem />
-        <GridItem />
+        {productItems.map((productiItem) => (
+          <GridItem key={productiItem.id} itemDetails={productiItem} />
+        ))}
       </div>
     </div>
   );
