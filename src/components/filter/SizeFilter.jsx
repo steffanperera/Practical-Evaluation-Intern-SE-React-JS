@@ -13,6 +13,7 @@ const SizeFilter = ({ onFilterSelect }) => {
     <div className={classes.filter_container}>
       <title>Sizes</title>
       <div className={classes.button_group}>
+        <h4>Sizes</h4>
         {filter.map((filterItem) => (
           <FilterButton
             key={filterItem}

@@ -8,5 +8,5 @@
   display: grid;
   padding: 16px;
   grid-template-columns: repeat(4, 1fr);
-  grid-gap: 20px;
+  grid-gap: 10px;
 }

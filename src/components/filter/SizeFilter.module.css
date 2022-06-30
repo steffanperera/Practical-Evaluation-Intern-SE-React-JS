@@ -1,5 +1,16 @@
 .filter_container {
-  width: 20%;
-  height: 100%;
+  display: flex;
+  width: 15%;
+  height: 100vh;
+  background-color: #eeeeee;
+}
+
+.button_group {
+  display: block;
+}
+
+h4 {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 

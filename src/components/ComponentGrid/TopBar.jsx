@@ -1,11 +1,11 @@
 import React from "react";
 import classes from "./TopBar.module.css";
 
-const TopBar = () => {
+const TopBar = ({ productCount }) => {
   return (
     <div className={classes.topbar_container}>
       <div className={classes.product_count}>
-        <p>17 products</p>
+        <p>{productCount === 0 ? "Can't find any products" : `${productCount} Products`} </p>
       </div>
 
       <div className={classes.dropdown}>
