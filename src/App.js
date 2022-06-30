@@ -1,18 +1,21 @@
 import "./App.css";
 import ComponentGrid from "./components/ComponentGrid/ComponentGrid";
-import FilterButton from "./components/filter/FilterButton";
 import SizeFilter from "./components/filter/SizeFilter";
-import Button from "./components/ui/Button";
+
+// Redux
+import { Provider } from "react-redux";
+import store from "./store";
 
 function App() {
   return (
-    <div className="App">
-      <div className="container">
-        <SizeFilter />
-        <ComponentGrid />
-        {/* <Button /> */}
+    <Provider store={store}>
+      <div className="App">
+        <div className="container">
+          <SizeFilter />
+          <ComponentGrid />
+        </div>
       </div>
-    </div>
+    </Provider>
   );
 }
 

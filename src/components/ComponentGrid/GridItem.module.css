@@ -26,3 +26,16 @@ img {
   font-size: 12px;
 }
 
+.item_name {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.item_price {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.item_details {
+  font-size: 12px;
+}
