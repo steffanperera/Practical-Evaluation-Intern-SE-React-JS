@@ -7,12 +7,6 @@ const SizeFilter = () => {
       <title>Sizes</title>
       <div className={classes.button_group}>
         <button></button>
-        <button></button>
-        <button></button>
-        <button></button>
-        <button></button>
-        <button></button>
-        <button></button>
       </div>
     </div>
   );
