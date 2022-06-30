@@ -1,13 +1,28 @@
 .item {
   display: flex;
   flex-direction: column;
+
 }
 
 .div_one {
   width: 100%;
+  position: relative;
 }
 
 img {
-  height: 400px;
-  width: auto;
+  object-fit: cover;
+  width: 100%;
+  max-height: 100%;
+  border: 2px solid black;
 }
+
+.tag {
+  position: absolute;
+  padding: 4px;
+  background-color: black;
+  color: aliceblue;
+  top: 0;
+  right: 0;
+  font-size: 12px;
+}
+
