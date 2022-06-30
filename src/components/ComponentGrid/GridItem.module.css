@@ -6,3 +6,8 @@
 .div_one {
   width: 100%;
 }
+
+img {
+  height: 400px;
+  width: auto;
+}
